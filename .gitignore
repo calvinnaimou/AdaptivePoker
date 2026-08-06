@@ -1,0 +1,31 @@
+# Build output
+build/
+build-debug/
+build-release/
+
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.pdb
+*.ilk
+
+# VS Code local settings
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# ImGui runtime layout
+imgui.ini
+
+# Environment variables and secrets
+.env
+.env.*

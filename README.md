@@ -34,6 +34,7 @@ AdaptivePoker is a C++ poker application that evaluates hands, calculates equity
 -engine/: cards, players, hand evaluation, equity, and game logic (no dependency on SFML/ImGui)
 
 ## Build and Run
+
 ### Requirements
 
 -C++ compiler with C++17 support
@@ -41,11 +42,13 @@ AdaptivePoker is a C++ poker application that evaluates hands, calculates equity
 -SFML 3 (e.g. brew install sfml on macOS)
 
 ## macOS or Linux
+
 cd PokerGame
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ./build/PokerGame
-Build Modes
+
+## Build Modes
 
 ## Release build:
 

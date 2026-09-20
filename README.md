@@ -56,7 +56,8 @@ cmake --build build-release
 
 cmake -S . -B build-debug -DCMAKE_BUILD_TYPE=Debug
 cmake --build build-debug
-How It Works
+
+## How It Works
 
 The project separates the poker engine from the graphical application. The engine (engine/) handles cards, players, game state, hand evaluation, and equity calculations, with no dependency on SFML or ImGui. The application (PokerGame/) links against the engine and is responsible for rendering, input, and session flow.
 
